@@ -2,7 +2,8 @@ import requests
 
 # Replace with your personal access token
 
-
+GITHUB_TOKEN = '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'
+headers = {'Authorization': f'token {GITHUB_TOKEN}'}
 # Define search parameters
 query = (
     "accessibility in:issues "
